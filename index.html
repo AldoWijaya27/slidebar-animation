@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Autoslider with progress bar</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="slider__container">
+        <img src="imgs/image1.jpg" class="slide active" />
+        <img src="imgs/image2.jpg" class="slide" />
+        <img src="imgs/image3.jpg" class="slide" />
+        <img src="imgs/image4.jpg" class="slide" />
+        <img src="imgs/image5.jpg" class="slide" />
+      </div>
+
+      <div class="progress">
+        <div id="length"></div>
+        <div id="progress__animation"></div>
+        <div class="slider__count">
+          <div class="count"></div>
+          <div class="count"></div>
+          <div class="count"></div>
+          <div class="count"></div>
+          <div class="count active-count"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
